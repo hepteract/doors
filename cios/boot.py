@@ -2,4 +2,14 @@
 
 """Module run at boot time
 
-bootstrap() is the main function, and is called as soon as modules are loaded."""
+bootstrap() is the main function, and is called as soon as the module is loaded."""
+
+import stackless
+import sys
+import os
+
+import .util
+
+@util.instant
+def bootstrap():
+  pass
