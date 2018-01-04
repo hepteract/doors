@@ -10,6 +10,5 @@ import os
 
 import .util
 
-@util.instant
 def bootstrap():
   pass
